@@ -3773,7 +3773,7 @@ end
 
 local function boost()
 	local success, result = pcall(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/refs/heads/request/boost.lua'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/kiti-sites/Sirius/refs/heads/request/boost.lua'))()
 	end)
 
 	if not success then
